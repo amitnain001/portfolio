@@ -9,7 +9,7 @@ function About() {
             <div className='w-full md:py-16    text-white'>
                 <div className='max-w-screen-lg  md:flex justify-between items-start mx-auto  h-full px-4 text-white'>
                     <div className='flex aboutPhotoDiv max-w-sm mx-auto flex-col items-center'>
-                        <img src={HeroImage} className="rounded-full w-48 " alt="HeroImage" />
+                        <img src={HeroImage} className="rounded-full w-48" alt="HeroImage" />
                         <h1 className='tracking-[3px] font-bold text-center text-4xl my-5'>AMIT NAIN</h1>
                         <p>FULL-STACK DEVELOPER</p>
                         <a className='aboubtn' href={resmue} download={true} target="blank"> <button className='px-3 py-3 bg-gray-500 rounded-md mt-7 hover:bg-gray-600 duration-200'>Download Resume</button> </a>
