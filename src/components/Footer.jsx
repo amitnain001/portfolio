@@ -16,7 +16,7 @@ function Footer() {
     }, {
         id: 3,
         child: (<> <HiOutlineMail size={30} />  </>),
-        href: "mailto:nainamit0047.com",
+        href: "mailto:nainamit0047@gmail.com",
     }];
 
     return (
