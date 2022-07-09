@@ -3,7 +3,6 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Sociallinks from "./components/Sociallinks";
-import "./app.css"
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { BrowserRouter as Rotuer, Routes, Route } from "react-router-dom";
