@@ -1,0 +1,266 @@
+.homeCubeSkills {
+    width: 200px;
+    height: 200px;
+    animation: cubeRotation 15s linear infinite alternate;
+    transform-style: preserve-3d;
+}
+
+
+.homeCubeSkillsFaces {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+
+.homeCubeSkillsFaces img {
+    width: inherit;
+    height: inherit;
+}
+
+.homeCubeSkillsFace1 {
+    transform: translate3d(0, 0, 250px);
+}
+
+.homeCubeSkillsFace2 {
+    transform: rotateY(180deg) translate3d(0, 0, 250px);
+}
+
+.homeCubeSkillsFace3 {
+    transform: rotateY(-90deg) translate3d(0, 0, 250px);
+}
+
+.homeCubeSkillsFace4 {
+    transform: rotateY(90deg) translate3d(0, 0, 250px);
+}
+
+.homeCubeSkillsFace5 {
+    transform: rotatex(90deg) translate3d(0, 0, 250px);
+}
+
+.homeCubeSkillsFace6 {
+    transform: rotatex(-90deg) translate3d(0, 0, 250px);
+}
+
+/* --------------------------------------------------About  Style here--------------------------------------------- */
+.aboutHeading {
+    animation: AboutHeading .9s ease-in-out forwards .1s;
+    transform: translateX(100vw);
+}
+
+.aboutImage {
+    animation: AboutImage 1.5s ease-in-out forwards .7s;
+    transform: translateX(-100vw);
+}
+
+@keyframes AboutHeading {
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes AboutImage {
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* ---------------------------------- Contact Form input --------------------------- */
+.contactForm input {
+    transform: translateX(-100vw);
+    animation: contacForm 1s ease-in-out .5s forwards;
+}
+
+.contactForm textarea {
+    transform: translateX(100vw);
+    animation: contactTextarea 1.3s ease-in-out .7s forwards;
+}
+
+
+.contactForm>.contactButton {
+    transform: translatey(-100vh);
+    animation: contacForm 1.3s ease-in-out .9s forwards;
+}
+
+.experienceCard div {
+    transform: translatey(-120vh);
+}
+
+.experienceCard div:nth-child(1) {
+    animation: experienceCARD 2.6s ease-in-out 1.8s forwards;
+}
+
+.experienceCard div:nth-child(2) {
+    animation: experienceCARD 2.4s ease-in-out 1.6s forwards;
+}
+
+.experienceCard div:nth-child(3) {
+    animation: experienceCARD 2.2s ease-in-out 1.4s forwards;
+}
+
+.experienceCard div:nth-child(4) {
+    animation: experienceCARD 2s ease-in-out 1.2s forwards;
+}
+
+.experienceCard div:nth-child(5) {
+    animation: experienceCARD 1.8s ease-in-out 1s forwards;
+}
+
+.experienceCard div:nth-child(6) {
+    animation: experienceCARD 1.6s ease-in-out .8s forwards;
+}
+
+.experienceCard div:nth-child(7) {
+    animation: experienceCARD 1.4s ease-in-out .6s forwards;
+}
+
+.experienceCard div:nth-child(8) {
+    animation: experienceCARD 1.2s ease-in-out .4s forwards;
+}
+
+.experienceCard div:nth-child(9) {
+    animation: experienceCARD 1s ease-in-out .2s forwards;
+}
+
+.aboutPhotoDiv img {
+
+    transform: translateX(-100vh);
+    animation: contacForm .6s ease-in-out .2s forwards;
+}
+
+.aboutPhotoDiv h1 {
+    transform: translateX(-100vh);
+    animation: contacForm .8s ease-in-out .4s forwards;
+}
+
+.aboutPhotoDiv p {
+    transform: translateX(-100vh);
+    animation: contacForm 1s ease-in-out .6s forwards;
+}
+
+.aboubtn {
+    transform: translateX(-100vh);
+    animation: contacForm 1s ease-in-out 1s forwards;
+}
+
+.aboutpDiv p {
+    transform: translateX(105vh);
+    animation: contacForm .8s ease-in-out .1s forwards;
+}
+
+.aboutul li {
+    transform: translateX(104vh);
+}
+
+.aboutul li:nth-child(1) {
+    animation: contacForm .8s ease-in-out .2s forwards;
+}
+
+.aboutul li:nth-child(2) {
+    animation: contacForm .8s ease-in-out .4s forwards;
+}
+
+.aboutul li:nth-child(3) {
+    animation: contacForm .8s ease-in-out .6s forwards;
+}
+
+.aboutul li:nth-child(4) {
+    animation: contacForm .8s ease-in-out .8s forwards;
+}
+
+.aboutul li:nth-child(5) {
+    animation: contacForm .8s ease-in-out 1s forwards;
+}
+
+
+@keyframes experienceCARD {
+    to {
+        transform: translatey(0px);
+    }
+}
+
+@keyframes contacForm {
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes contactTextarea {
+    to {
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    .homeCubeSkills {
+        width: 150px;
+        height: 150px;
+    }
+
+    .homeCubeSkillsFace1 {
+        transform: translate3d(0, 0, 180px);
+    }
+
+    .homeCubeSkillsFace2 {
+        transform: rotateY(180deg) translate3d(0, 0, 180px);
+    }
+
+    .homeCubeSkillsFace3 {
+        transform: rotateY(-90deg) translate3d(0, 0, 180px);
+    }
+
+    .homeCubeSkillsFace4 {
+        transform: rotateY(90deg) translate3d(0, 0, 180px);
+    }
+
+    .homeCubeSkillsFace5 {
+        transform: rotatex(90deg) translate3d(0, 0, 180px);
+    }
+
+    .homeCubeSkillsFace6 {
+        transform: rotatex(-90deg) translate3d(0, 0, 180px);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .homeCubeSkills {
+        width: 100px;
+        height: 100px;
+    }
+
+    .homeCubeSkillsFace1 {
+        transform: translate3d(0, 0, 130px);
+    }
+
+    .homeCubeSkillsFace2 {
+        transform: rotateY(180deg) translate3d(0, 0, 130px);
+    }
+
+    .homeCubeSkillsFace3 {
+        transform: rotateY(-90deg) translate3d(0, 0, 130px);
+    }
+
+    .homeCubeSkillsFace4 {
+        transform: rotateY(90deg) translate3d(0, 0, 130px);
+    }
+
+    .homeCubeSkillsFace5 {
+        transform: rotatex(90deg) translate3d(0, 0, 130px);
+    }
+
+    .homeCubeSkillsFace6 {
+        transform: rotatex(-90deg) translate3d(0, 0, 130px);
+    }
+}
+
+@keyframes cubeRotation {
+    to {
+        transform: rotateY(360deg) rotateX(480deg) rotateZ(720deg);
+    }
+}
