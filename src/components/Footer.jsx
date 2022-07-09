@@ -23,7 +23,7 @@ function Footer() {
         <div className='bg-black text-white py-10 md:py-20 '>
             <div className='md:max-w-5xl mx-5 md:mx-auto flex-col-reverse md:flex-row  flex justify-between items-start'>
                 <ul>
-                    <li className='flex items-center my-3  '>  <i className="fa-solid fa-house mr-5"></i>  Sector 17 A , Gurugram  Haryana.</li>
+                    <li className='flex items-center my-3  '>  <i className="fa-solid fa-house mr-5"></i>  VPO Talu (Bhiwani) , Haryana</li>
                     <li className='flex items-center my-3  '>  <i className="fa-solid fa-phone   mr-5"></i>+91-9275566526</li>
                     <li className='flex items-center my-3  '>  <i className="fa-solid fa-envelope   mr-5"></i>nainamit0047@gmail.com.</li>
                 </ul>
