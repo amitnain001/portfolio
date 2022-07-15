@@ -28,7 +28,7 @@ function Footer() {
                     <li className='flex items-center my-3  '>  <i className="fa-solid fa-envelope   mr-5"></i>nainamit0047@gmail.com.</li>
                 </ul>
                 <div className='mb-10'>
-                    <p className='pb-10'>Hey, my name is me Amit Nain. <br /> I am a full-stack Developer and I enjoy discussing new projects and design challenges. </p>
+                    <p className='pb-10'>Hey, my name is Amit Nain. <br /> I am a full-stack Developer and I enjoy discussing new projects and design challenges. </p>
                     <div className='flex  '>
                         {links.map(({ id, href, child, style }) => (<a key={id} target="blank" href={href} className={`mr-7  ${style}`}>{child}</a>))}
                     </div>
